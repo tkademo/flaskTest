@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def landing_page():
     # You can customize the information to be displayed on the landing page
-    company_name = "Your Company"
+    company_name = "Your Company Heho"
     tagline = "Building a Better Future"
     about_us = "Welcome to {}! We are dedicated to {}. Explore our website to learn more.".format(company_name, tagline)
     
@@ -15,3 +15,5 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 # This is a change to the code
+#hello Rzichard
+
